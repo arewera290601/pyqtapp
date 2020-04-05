@@ -33,3 +33,12 @@ class Zadania(QWidget, Ui_Widget):
                                 
     def koniec(self):
         self.close()
+
+if __name__ == '__main__':
+    import sys
+
+    app = QApplication(sys.argv)
+    okno = Zadania()
+    okno.show()
+    okno.move(350, 200)
+    sys.exit(app.exec_())
