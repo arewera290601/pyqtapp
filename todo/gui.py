@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import QDialog, QDialogButtonBox
 from PyQt5.QtWidgets import QLabel, QLineEdit
 from PyQt5.QtWidgets import QGridLayout
 
+
 class Ui_Widget(object):
 
     def setupUi(self, Widget):
@@ -33,6 +34,7 @@ class Ui_Widget(object):
         # właściwości widżetu ###
         self.setWindowTitle("Prosta lista zadań")
         self.resize(500, 300)
+
 
 class LoginDialog(QDialog):
     """ Okno dialogowe logowania """
